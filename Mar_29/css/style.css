@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #333;
+    padding: 30px;
+}
+
+body{
+    background-color: #08585C;
+}
+h1{
+    font-weight: 100;
+    font-size: 5em;
+    color: #fff;
+}
+h2{
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #fff;
+    background-color: #f49731;
+    text-align: center;
+    width: 200px;
+    padding: 10px 0;
+}
+p{
+    color: white;
+    padding: 0px 0px 30px 0px;
+}
+ul, ol{
+    margin: 20px;
+}
+li{
+    color: yellow;
+}
+.dotted{
+    border-style: dotted;
+    border-color: #f49731;
+    border-width: 10px;
+    
+    padding: 20px;
+}
+main{
+    padding: 20px 30px;
+}
