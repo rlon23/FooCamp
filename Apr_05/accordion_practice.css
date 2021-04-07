@@ -9,6 +9,7 @@ body {
 
 button {
 	font-family: 'Montserrat', sans-serif;
+	background-color: lightseagreen;
 }
 
 .acc__container {
@@ -21,9 +22,48 @@ button {
 	padding: 0;
 	list-style-type: none;
 }
+.acc__button1{
+	width: 100%;
+	height: 45px;
+	border-style: solid;
+	border-color:green;
+	border-radius: 5px;
+	font-size: 18px;
+	color: rgb(223, 236, 236);
+	cursor: pointer;
+}
+.acc__list2{
+	background-color: rgb(223, 236, 236);
+	padding: 0 0 0 20px;
+}
+.acc__item2{
+	font-family: 'Montserrat', 'sans-serif';
+	list-style-type: none;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 10px 0 10px 0;
+
+}
+
+/*
+- width
+- height
+- margin
+- padding
+- box-sizing
+- font-size
+- line-height
+- background-color
+- color
+- font-family
+- list-style-type
+- border
+- border-radius
+- cursor
+*/
 
 /* Add this when enabling javascript */
-/* .acc__list2 { */
-/* 	display: none; */
-/* 	overflow: hidden; */
-/* } */
+.acc__list2 { 
+	display: none;
+	overflow: hidden;
+ }
