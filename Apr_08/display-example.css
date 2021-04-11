@@ -1,0 +1,29 @@
+html {
+	font-family: helvetica, arial, sans-serif;
+	letter-spacing: 1px;
+	padding-top: 10px;
+}
+
+article {
+	background-color: lightgray;
+	padding: 25px;
+}
+
+article span {
+	padding: 10px;
+	background-color: white;
+	color: black;
+	margin: 5px;
+}
+
+article * {
+	border: 1px solid red;
+}
+
+article, span {
+	border-radius: 7px;
+}
+
+article, div {
+	margin: 20px;
+}
