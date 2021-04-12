@@ -1,0 +1,419 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: "Poppins", sans-serif;
+  color: white;
+
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.flex {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.container {
+  background-color: snow;
+  height: 200px;
+  border-radius: 4px;
+	padding: 1px;
+}
+
+.item {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  background-color: #EA178C;
+  text-align: center;
+}
+
+.sm {
+  width: 20px;
+}
+
+.lg {
+  width: 80px;
+}
+
+.stretch {
+	width: auto;
+	height: auto;
+	margin-right: 5px;
+	padding: 5px;
+	text-align: left;
+}
+
+.stretch:last-child {
+	margin-right: 0;
+}
+
+.lg-text {
+	font-size: 30px;
+}
+
+/* ---Start: Parent Properties--- */
+/**
+* Display
+*/
+
+/* Display: flex */
+.flex-1 .option-1 .container {
+	/* Insert code here */
+	margin-bottom: 10px;
+}
+
+/* Display: inline-flex */
+.flex-1 .option-2 .container {
+	/* Insert code here */
+	margin-right: 10px;
+}
+
+/* ============================ */
+/**
+* Flex Direction
+*/
+
+.flex-2 .container {
+  display: flex;
+}
+
+/* Flex Direction: row */
+.flex-2 .option-1 .container {
+	/* Insert code here */
+}
+
+/* Flex Direction: row-reverse */
+.flex-2 .option-2 .container {
+	/* Insert code here */
+}
+
+/* Flex Direction: column */
+.flex-2 .option-3 .container {
+	/* Insert code here */
+}
+
+/* Flex Direction: column-reverse */
+.flex-2 .option-4 .container {
+	/* Insert code here */
+}
+
+/* ============================ */
+/**
+* Flex Wrap
+*/
+
+.flex-3 .container {
+  display: flex;
+}
+
+/* Flex Wrap: nowrap */
+.flex-3 .option-1 .container {
+	/* Insert code here */
+}
+
+/* Flex Wrap: wrap */
+.flex-3 .option-2 .container {
+	/* Insert code here */
+}
+
+/* Flex Wrap: wrap-reverse */
+.flex-3 .option-3 .container {
+	/* Insert code here */
+}
+
+/* ============================ */
+/**
+* Flex Flow: <flex-direction> || <flex-wrap>
+*/
+
+.flex-4 .container {
+  display: flex;
+	/* Insert code here */
+}
+
+/* ============================ */
+/**
+* Justify Content
+*/
+
+.flex-5 .container {
+	display: flex;
+}
+
+/* Justify Content: Flex-start */
+.flex-5 .option-1 .container {
+	/* Insert code here */
+}
+
+/* Justify Content: Flex-end */
+.flex-5 .option-2 .container {
+	/* Insert code here */
+}
+
+/* Justify Content: Center */
+.flex-5 .option-3 .container {
+	/* Insert code here */
+}
+
+/* Justify Content: Space-between */
+.flex-5 .option-4 .container {
+	/* Insert code here */
+}
+
+/* Justify Content: Space-around */
+.flex-5 .option-5 .container {
+	/* Insert code here */
+}
+
+/* Justify Content: Space-evenly */
+.flex-5 .option-6 .container {
+	/* Insert code here */
+}
+
+/* ============================ */
+/**
+* Align Items
+*/
+
+.flex-6 .container {
+	display: flex;
+}
+
+/* Align Items: Stretch */
+.flex-6 .option-1 .container {
+	/* Insert code here */
+}
+
+/* Align Items: Flex-start */
+.flex-6 .option-2 .container {
+	/* Insert code here */
+}
+
+/* Align Items: Flex-end */
+.flex-6 .option-3 .container {
+	/* Insert code here */
+}
+
+/* Align Items: Center */
+.flex-6 .option-4 .container {
+	/* Insert code here */
+}
+
+/* Align Items: Baseline */
+.flex-6 .option-5 .container {
+	/* Insert code here */
+}
+
+/* ============================ */
+/**
+* Align Content
+*/
+
+.flex-7 .container {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.flex-7 .item {
+	width: 40%;
+	height: auto;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+
+/* Align Content: Flex-start */
+.flex-7 .option-1 .container {
+	/* Insert code here */
+}
+
+/* Align Content: Flex-end */
+.flex-7 .option-2 .container {
+	/* Insert code here */
+}
+
+/* Align Content: Center */
+.flex-7 .option-3 .container {
+	/* Insert code here */
+}
+
+/* Align Content: Stretch */
+.flex-7 .option-4 .container {
+	/* Insert code here */
+}
+
+/* Align Content: Space-between */
+.flex-7 .option-5 .container {
+	/* Insert code here */
+}
+
+/* Align Content: Space-around */
+.flex-7 .option-6 .container {
+	/* Insert code here */
+}
+
+/* Align Content: Space-evenly */
+.flex-7 .option-7 .container {
+	/* Insert code here */
+}
+/* ---End: Parent Properties--- */
+
+/* ---Start: Children Properties--- */
+/**
+* Order
+*/
+
+.flex-8 .container {
+  display: flex;
+}
+
+/* Order: 0 */
+.flex-8 .option-1 .item {
+	/* Insert code here */
+}
+
+/* Order: 1 */
+.flex-8 .option-2 .item-3 {
+	/* Insert code here */
+}
+
+/* Order: -1 */
+.flex-8 .option-3 .item-3 {
+	/* Insert code here */
+}
+
+/* ============================ */
+/**
+* Flex Grow
+*/
+
+.flex-9 .container {
+	display: flex;
+}
+
+.flex-9 .item-3 {
+	/* Insert code here */
+}
+.flex-9 .item-4 {
+	/* Insert code here */
+}
+
+/* ============================ */
+/**
+* Flex Shrink
+*/
+
+.flex-10 .container {
+	display: flex;
+}
+
+.flex-10 .item {
+	width: 200px;
+}
+
+.flex-10 .item-3 {
+	/* Insert code here */
+}
+
+.flex-10 .item-4 {
+	/* Insert code here */
+}
+/* ============================ */
+
+/**
+* Flex Basis
+*/
+
+.flex-11 .container {
+	display: flex;
+}
+
+.flex-11 .item-3 {
+	/* Insert code here */
+}
+/* ============================ */
+
+/**
+* Flex
+*/
+
+.flex-12 .container {
+	display: flex;
+}
+
+/* Flex: 0 1 auto; (default) */
+.flex-12 .option-1 .item {
+}
+
+/* Flex: 0 0 auto; (same as flex: none;) */
+.flex-12 .option-2 .item {
+}
+
+/* Flex: 1 1 auto; (same as flex: auto;) */
+.flex-12 .option-3 .item {
+}
+
+/* Flex: "positive number"; (same as flex: "positive number" 1 0;) */
+.flex-12 .option-4 .item-1 {
+}
+
+.flex-12 .option-4 .item-2 {
+}
+
+/* Flex: Relative flex-items (spacing based on content size) */
+/* Example: flex: auto;*/
+.flex-12 .option-5 .item {
+}
+
+/* Flex: Absolute flex-items (spacing based on "flex" content size) */
+/* Example: flex: 1; */
+.flex-12 .option-6 .item {
+}
+/* ============================ */
+
+/**
+* Align Self
+*/
+
+.flex-13 .container {
+	display: flex;
+}
+
+/* Align Self: auto */
+.flex-13 .option-1 .item-1,
+.flex-13 .option-1 .item-2 {
+}
+
+/* Align Self: stretch */
+.flex-13 .option-2 .item-1,
+.flex-13 .option-2 .item-2 {
+}
+
+/* Align Self: flex-start */
+.flex-13 .option-3 .item-1,
+.flex-13 .option-3 .item-2 {
+}
+
+/* Align Self: flex-end */
+.flex-13 .option-4 .item-1,
+.flex-13 .option-4 .item-2 {
+}
+
+/* Align Self: center */
+.flex-13 .option-5 .item-1,
+.flex-13 .option-5 .item-2 {
+}
+
+/* Align Self: baseline */
+.flex-13 .option-6 .item-1,
+.flex-13 .option-6 .item-2 {
+}
+
+/* ---End: Children Properties--- */
