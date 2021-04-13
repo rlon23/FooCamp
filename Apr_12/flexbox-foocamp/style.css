@@ -67,12 +67,14 @@ body {
 /* Display: flex */
 .flex-1 .option-1 .container {
 	/* Insert code here */
+	display: flex;
 	margin-bottom: 10px;
 }
 
 /* Display: inline-flex */
 .flex-1 .option-2 .container {
 	/* Insert code here */
+	display: inline-flex;
 	margin-right: 10px;
 }
 
@@ -88,21 +90,25 @@ body {
 /* Flex Direction: row */
 .flex-2 .option-1 .container {
 	/* Insert code here */
+	flex-direction: row;
 }
 
 /* Flex Direction: row-reverse */
 .flex-2 .option-2 .container {
 	/* Insert code here */
+	flex-direction: row-reverse;
 }
 
 /* Flex Direction: column */
 .flex-2 .option-3 .container {
 	/* Insert code here */
+	flex-direction: column;
 }
 
 /* Flex Direction: column-reverse */
 .flex-2 .option-4 .container {
 	/* Insert code here */
+	flex-direction: column-reverse;
 }
 
 /* ============================ */
@@ -117,16 +123,19 @@ body {
 /* Flex Wrap: nowrap */
 .flex-3 .option-1 .container {
 	/* Insert code here */
+	flex-wrap: nowrap;
 }
 
 /* Flex Wrap: wrap */
 .flex-3 .option-2 .container {
 	/* Insert code here */
+	flex-wrap: wrap;
 }
 
 /* Flex Wrap: wrap-reverse */
 .flex-3 .option-3 .container {
 	/* Insert code here */
+	flex-wrap: wrap-reverse;
 }
 
 /* ============================ */
@@ -137,6 +146,7 @@ body {
 .flex-4 .container {
   display: flex;
 	/* Insert code here */
+	flex-flow: column wrap;
 }
 
 /* ============================ */
@@ -151,31 +161,37 @@ body {
 /* Justify Content: Flex-start */
 .flex-5 .option-1 .container {
 	/* Insert code here */
+	justify-content: flex-start;
 }
 
 /* Justify Content: Flex-end */
 .flex-5 .option-2 .container {
 	/* Insert code here */
+	justify-content: flex-end;
 }
 
 /* Justify Content: Center */
 .flex-5 .option-3 .container {
 	/* Insert code here */
+	justify-content: center;
 }
 
 /* Justify Content: Space-between */
 .flex-5 .option-4 .container {
 	/* Insert code here */
+	justify-content: space-between;
 }
 
 /* Justify Content: Space-around */
 .flex-5 .option-5 .container {
 	/* Insert code here */
+	justify-content: space-around;
 }
 
 /* Justify Content: Space-evenly */
 .flex-5 .option-6 .container {
 	/* Insert code here */
+	justify-content: space-evenly;
 }
 
 /* ============================ */
@@ -190,26 +206,32 @@ body {
 /* Align Items: Stretch */
 .flex-6 .option-1 .container {
 	/* Insert code here */
+	align-items: stretch;
 }
 
 /* Align Items: Flex-start */
 .flex-6 .option-2 .container {
 	/* Insert code here */
+	align-items: flex-start;
 }
 
 /* Align Items: Flex-end */
 .flex-6 .option-3 .container {
 	/* Insert code here */
+	align-items: flex-end;
 }
 
 /* Align Items: Center */
 .flex-6 .option-4 .container {
 	/* Insert code here */
+	align-items: center;
 }
 
 /* Align Items: Baseline */
 .flex-6 .option-5 .container {
 	/* Insert code here */
+
+align-items: baseline;
 }
 
 /* ============================ */
@@ -232,36 +254,43 @@ body {
 /* Align Content: Flex-start */
 .flex-7 .option-1 .container {
 	/* Insert code here */
+	align-content: flex-start;
 }
 
 /* Align Content: Flex-end */
 .flex-7 .option-2 .container {
 	/* Insert code here */
+	align-content: flex-end;
 }
 
 /* Align Content: Center */
 .flex-7 .option-3 .container {
 	/* Insert code here */
+	align-content: center;
 }
 
 /* Align Content: Stretch */
 .flex-7 .option-4 .container {
 	/* Insert code here */
+	align-content: stretch;
 }
 
 /* Align Content: Space-between */
 .flex-7 .option-5 .container {
 	/* Insert code here */
+	align-content: space-between;
 }
 
 /* Align Content: Space-around */
 .flex-7 .option-6 .container {
 	/* Insert code here */
+	align-content: space-around;
 }
 
 /* Align Content: Space-evenly */
 .flex-7 .option-7 .container {
 	/* Insert code here */
+	align-content: space-evenly;
 }
 /* ---End: Parent Properties--- */
 
@@ -277,16 +306,19 @@ body {
 /* Order: 0 */
 .flex-8 .option-1 .item {
 	/* Insert code here */
+	
 }
 
 /* Order: 1 */
 .flex-8 .option-2 .item-3 {
 	/* Insert code here */
+	
 }
 
 /* Order: -1 */
 .flex-8 .option-3 .item-3 {
 	/* Insert code here */
+	
 }
 
 /* ============================ */
