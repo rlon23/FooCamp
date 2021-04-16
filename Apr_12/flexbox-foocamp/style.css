@@ -306,19 +306,19 @@ align-items: baseline;
 /* Order: 0 */
 .flex-8 .option-1 .item {
 	/* Insert code here */
-	
+	order: 0;
 }
 
 /* Order: 1 */
 .flex-8 .option-2 .item-3 {
 	/* Insert code here */
-	
+	order: 1;
 }
 
 /* Order: -1 */
 .flex-8 .option-3 .item-3 {
 	/* Insert code here */
-	
+	order: -1;
 }
 
 /* ============================ */
@@ -332,9 +332,11 @@ align-items: baseline;
 
 .flex-9 .item-3 {
 	/* Insert code here */
+	flex-grow: 1;
 }
 .flex-9 .item-4 {
 	/* Insert code here */
+	flex-grow: 1;
 }
 
 /* ============================ */
@@ -352,10 +354,12 @@ align-items: baseline;
 
 .flex-10 .item-3 {
 	/* Insert code here */
+	flex-shrink: 2;
 }
 
 .flex-10 .item-4 {
 	/* Insert code here */
+	flex-shrink: 2;
 }
 /* ============================ */
 
@@ -369,6 +373,7 @@ align-items: baseline;
 
 .flex-11 .item-3 {
 	/* Insert code here */
+	flex-basis: 200px;
 }
 /* ============================ */
 
@@ -382,31 +387,39 @@ align-items: baseline;
 
 /* Flex: 0 1 auto; (default) */
 .flex-12 .option-1 .item {
+	flex: 0 1 auto;
 }
 
 /* Flex: 0 0 auto; (same as flex: none;) */
 .flex-12 .option-2 .item {
+	flex: 0 1 auto;
 }
+
 
 /* Flex: 1 1 auto; (same as flex: auto;) */
 .flex-12 .option-3 .item {
+	flex: 1 1 auto; /*flex: auto;*/
 }
 
 /* Flex: "positive number"; (same as flex: "positive number" 1 0;) */
 .flex-12 .option-4 .item-1 {
+	flex: 1; /*flex: 1 1 0*/
 }
 
 .flex-12 .option-4 .item-2 {
+	flex: 1;
 }
 
 /* Flex: Relative flex-items (spacing based on content size) */
 /* Example: flex: auto;*/
 .flex-12 .option-5 .item {
+	flex:auto;
 }
 
 /* Flex: Absolute flex-items (spacing based on "flex" content size) */
 /* Example: flex: 1; */
 .flex-12 .option-6 .item {
+	flex:1;
 }
 /* ============================ */
 
@@ -421,6 +434,7 @@ align-items: baseline;
 /* Align Self: auto */
 .flex-13 .option-1 .item-1,
 .flex-13 .option-1 .item-2 {
+
 }
 
 /* Align Self: stretch */
@@ -431,21 +445,25 @@ align-items: baseline;
 /* Align Self: flex-start */
 .flex-13 .option-3 .item-1,
 .flex-13 .option-3 .item-2 {
+	align-self: flex-start;
 }
 
 /* Align Self: flex-end */
 .flex-13 .option-4 .item-1,
 .flex-13 .option-4 .item-2 {
+	align-self: flex-end;
 }
 
 /* Align Self: center */
 .flex-13 .option-5 .item-1,
 .flex-13 .option-5 .item-2 {
+	align-self: center;
 }
 
 /* Align Self: baseline */
 .flex-13 .option-6 .item-1,
 .flex-13 .option-6 .item-2 {
+	align-self: baseline;
 }
 
 /* ---End: Children Properties--- */
