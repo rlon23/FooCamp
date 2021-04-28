@@ -1,0 +1,114 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.hero{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    position: relative; 
+    align-items: center;  
+    justify-content: space-evenly; 
+}
+.hero__image{
+    display: flex;
+    flex: 1;
+    width: 100%;
+}
+.hero__image img{
+    max-width: 100%;
+}
+.hero__title{
+    font-family: 'Roboto Slab', serif;
+    font-size: 70px;
+    display: flex;
+    color: white;
+    position: absolute;
+    margin: 0;
+    padding: 80px 20px;
+}
+.hero__description{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    display: flex;
+    color: white;
+    position: absolute;
+    margin: 0;
+    padding: 80px 20px;
+}
+.cardsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 60px;
+}
+.card{
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    flex: 1 1 30.5%;
+    margin: 0 1.3% 4% 1.3%;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(210,210,210);
+    border-radius: 4px;
+}
+
+.card__title{ 
+    font-family: 'Roboto Slab', serif;
+    margin: -6px 0 0 0;
+    padding: 0 15px;
+    text-align: center;
+    background-color: white;
+}
+.title--green{
+    color: rgb(37, 182, 85);
+}
+.title--blue{
+    color: rgb(1, 141, 200);
+}
+.title--red{
+    color: rgb(231, 75, 60);
+}
+.title--darkblue{
+    color: rgb(53, 74, 95);
+}
+
+.card__brand{
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 10px 0;
+}
+.card__description{
+    margin: 0 20px;
+    text-align: center; 
+    flex: 1;  
+}
+.card__button{
+    margin: 20px 0;
+    padding: 8px 0;
+    width: 100px;
+    border: none;
+    border-radius: 2px;
+    font-size: 12px;
+}
+.button--green{
+    color: white;
+    background-color: rgb(37, 182, 85);
+}
+.button--blue{
+    color: white;
+    background-color: rgb(1, 141, 200);
+}
+.button--red{
+    color: white;
+    background-color: rgb(231, 75, 60);
+}
+.button--darkblue{
+    color: white;
+    background-color: rgb(53, 74, 95);
+}

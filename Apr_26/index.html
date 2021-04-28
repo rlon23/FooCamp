@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Source+Sans+Pro:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="css/style.css">
+    <title>BEM Homework</title>
+</head>
+<body>
+    <!-- 
+    • Write in a README a list with
+    the blocks, elements and
+    modifiers you find.
+    • Create structure in HTML.
+    • Generate classes with BEM.
+    • Write styles similar to the image. 
+    -->
+    <!-- 
+    Bloque:     • Hero.
+                • Card.
+    Element:    • header: image, title, description
+                • Card: title, brand, description, button
+    Modifier:   • HeroImage: title font, description font
+                • Card: theme green, theme blue, theme red, theme gray
+     -->
+    <section class="hero">
+        <div class="hero__image">
+            <img src="img/office2.jpg" alt="office">
+        </div>
+        <h1 class="hero__title">Develop Experiences</h1>    
+        <p class="hero__description">UI frameworks and app development tools that 2.1 million developers love</p>   
+    </section>
+
+    <section class="cardsContainer">
+        <section class="card">
+            <h3 class="card__title title--green">.NET</h3>
+            <h2 class="card__brand">DevCraft</h2>
+            <p class="card__description">.NET UI controls, reporting and developer productivity tools</p>
+            <button class="card__button button--green">Learn more</button>           
+        </section>
+        <section class="card">
+            <h3 class="card__title title--blue">NATIVE MOBILE</h3>
+            <h2 class="card__brand">NativeScript</h2>
+            <p class="card__description">Open source framework for building truly native mobile 
+                apps with Angular, TypeScript or JavaScript</p>
+            <button class="card__button button--blue">Learn more</button>           
+        </section>
+        <section class="card">
+            <h3 class="card__title title--red">HTML5</h3>
+            <h2 class="card__brand">Kendo UI</h2>
+            <p class="card__description">JavaScript, HTML5 UI widgets for responsive web and data visualization</p>
+            <button class="card__button button--red">Learn more</button>           
+        </section>
+        <section class="card">
+            <h3 class="card__title title--darkblue">CMS</h3>
+            <h2 class="card__brand">Progress Sitefinity</h2>
+            <p class="card__description">Web Content Management and Customer Analytics for managing and optimizing digital experiences</p>
+            <button class="card__button button--darkblue">Learn more</button>           
+        </section>
+        <section class="card">
+            <h3 class="card__title title--darkblue">MOBILE</h3>
+            <h2 class="card__brand">Telerik Platform</h2>
+            <p class="card__description">Complete cross-platform solution to design, build, deploy, manage, and measure all your mobile apps</p>
+            <button class="card__button button--darkblue">Learn more</button>           
+        </section>
+        <section class="card">
+            <h3 class="card__title title--darkblue">TESTING</h3>
+            <h2 class="card__brand">Test Studio</h2>
+            <p class="card__description">Release better quality sofware faster with an intuitive and easy to use test automation solution</p>
+            <button class="card__button button--darkblue">Learn more</button>           
+        </section>
+    </section>
+
+</body>
+</html>
