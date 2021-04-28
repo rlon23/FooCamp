@@ -3,6 +3,7 @@ body{
     padding: 0;
     width: 90%;
     max-width: 1200px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .hero{
@@ -32,7 +33,6 @@ body{
     padding: 80px 20px;
 }
 .hero__description{
-    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
     font-size: 28px;
     display: flex;
@@ -47,7 +47,6 @@ body{
     margin: 60px;
 }
 .card{
-    font-family: 'Source Sans Pro', sans-serif;
     display: flex;
     flex: 1 1 30.5%;
     margin: 0 1.3% 4% 1.3%;
@@ -80,18 +79,18 @@ body{
 .card__brand{
     text-align: center;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 35px;
     margin: 10px 0;
 }
 .card__description{
-    margin: 0 20px;
+    margin: 0 40px;
     text-align: center; 
     flex: 1;  
 }
 .card__button{
     margin: 20px 0;
     padding: 8px 0;
-    width: 100px;
+    width: 110px;
     border: none;
     border-radius: 2px;
     font-size: 12px;
