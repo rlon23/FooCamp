@@ -12,27 +12,28 @@
 </head>
 <body>
     <!-- 
-    • Write in a README a list with
-    the blocks, elements and
-    modifiers you find.
+    • Write in a README a list with the blocks, 
+    elements and modifiers you find.
     • Create structure in HTML.
     • Generate classes with BEM.
     • Write styles similar to the image. 
     -->
     <!-- 
-    Bloque:     • Hero.
+    Block:      • Hero.
                 • Card.
-    Element:    • header: image, title, description
+    Element:    • Hero: image, title, description
                 • Card: title, brand, description, button
     Modifier:   • HeroImage: title font, description font
-                • Card: theme green, theme blue, theme red, theme gray
+                • Card: theme green, theme blue, theme red, theme darkblue
      -->
     <section class="hero">
-        <div class="hero__image">
-            <img src="img/office2.jpg" alt="office">
+        <div class="hero__image__container">
+            <img class="hero__image " src="img/office2.jpg" alt="office">
         </div>
-        <h1 class="hero__title">Develop Experiences</h1>    
-        <p class="hero__description">UI frameworks and app development tools that 2.1 million developers love</p>   
+        <div class="hero__text">
+            <h1 class="hero__title">Develop Experiences</h1>    
+            <p class="hero__description">UI frameworks and app development tools that 2.1 million developers love</p>
+        </div>           
     </section>
 
     <section class="cardsContainer">
@@ -74,6 +75,5 @@
             <button class="card__button button--darkblue">Learn more</button>           
         </section>
     </section>
-
 </body>
 </html>
