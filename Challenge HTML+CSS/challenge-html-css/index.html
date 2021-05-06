@@ -12,31 +12,75 @@
         <nav class="main-nav max-bound">
             <ul class="main-nav__list">
                 <li class="main-nav__list-item"> 
-                    <img src="assets/logo-blue.png" alt="logo" class="list-item__img">                   
-                </li>
-                <li class="main-nav__list-item list-item--active">
-                    <a href="" class="list-item__link">Home</a>
+                    <img src="assets/logo-blue.png" alt="logo" class="list-item__logo">                   
                 </li>
                 <li class="main-nav__list-item">
-                    <a href="" class="list-item__link">About Us</a>
+                    <a href="" class="list-item__link small-hidden">Home</a>
                 </li>
                 <li class="main-nav__list-item">
-                    <a href="" class="list-item__link">Our Services</a>
+                    <a href="" class="list-item__link small-hidden">About Us</a>
                 </li>
                 <li class="main-nav__list-item">
-                    <a href="" class="list-item__link">Responsibilities</a>
+                    <a href="" class="list-item__link small-hidden">Our Services</a>
                 </li>
                 <li class="main-nav__list-item">
-                    <a href="" class="list-item__link">Country</a>
+                    <a href="" class="list-item__link small-hidden">Responsibilities</a>
+                </li>
+                <li class="main-nav__list-item">
+                    <a href="" class="list-item__link small-hidden">Country</a>
                 </li>   
                 <li class="main-nav__list-item">
-                    <a href="" class="list-item__link">Apply</a>
-                </li>             
+                    <button class="list-item__button small-hidden">Apply</button>
+                </li> 
+                <li class="main-nav__list-item large-hidden"> 
+                    <img src="assets/menu-icon.png" alt="menu" class="list-item__menu">                   
+                </li>            
             </ul>            
         </nav>
     </header>
-    <main class="max-bound">
+    <main class="main-container">
+        <section class="hero max-bound">
+            <h1 class="hero__headline-1">We Help to <span class="headline-1--accent">Build</span><br>Your Dream
+            </h1>
+            <p class="hero__paragraph">We are always availed to consult on taking your
+                higher education to the next level so you can stay competitive in
+            </p>
+            <button type="button" class="button__call-to-action">Apply Online
+                <img src="assets/arrow-light.png" alt="" class="button__image">
+            </button>            
+            <div class="hero__social-media">
+                <img src="assets/facebook.png" alt="" class="facebook--icon">
+                <img src="assets/twitter.png" alt="" class="twitter--icon">
+                <img src="assets/instagram.png" alt="" class="instagram--icon">
+            </div>
+            <div class="hero__image-container">
+                <img src="assets/hero-image.png" alt="hero-image" class="hero__image small-hidden">
+            </div>            
+        </section>
 
+        <section class="featured-section max-bound">
+            <h2 class="featured__headline-2">FEATURED UNIVERSITIES</h2>
+            <div class="featured__carousel">                
+                <div class="featured__university-item">
+                    <img src="assets/macquarie-university.png" alt="macquarie-university" class="university-image--macquarie">
+                </div>
+                <div class="featured__university-item">
+                    <img src="assets/charles-university.png" alt="charles-university" class="university-image--charles">
+                </div>
+                <div class="featured__university-item">
+                    <img src="assets/newcastle-university.png" alt="newcastle-university" class="university-image--newcastle">
+                </div>
+                <div class="featured__university-item">
+                    <img src="assets/trobe-university.png" alt="trobe-university" class="university-image--trobe">
+                </div>                
+            </div>  
+            <div class="carousel__buttons small-hidden">
+                <button class="carousel__button carousel__button--active"></button>
+                <button class="carousel__button"></button>
+                <button class="carousel__button"></button>
+                <button class="carousel__button"></button>
+            </div>          
+        </section>
     </main>    
 </body>
 </html>
