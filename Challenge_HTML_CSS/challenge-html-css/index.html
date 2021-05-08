@@ -10,76 +10,100 @@
 <body>
     <header>
         <nav class="main-nav max-bound">
-            <ul class="main-nav__list">
-                <li class="main-nav__list-item"> 
-                    <img src="assets/logo-blue.png" alt="logo" class="list-item__logo">                   
+            <div class="main-nav__logo"> 
+                <img src="assets/logo-blue.png" alt="logo">                   
+            </div>
+            <ul class="main-nav__list small-hidden">                
+                <li class="main-nav__item small-hidden">
+                    <a href="" class="list-item__link">Home</a>
                 </li>
-                <li class="main-nav__list-item">
-                    <a href="" class="list-item__link small-hidden">Home</a>
+                <li class="main-nav__item">
+                    <a href="" class="list-item__link">About Us</a>
                 </li>
-                <li class="main-nav__list-item">
-                    <a href="" class="list-item__link small-hidden">About Us</a>
+                <li class="main-nav__item">
+                    <a href="" class="list-item__link">Our Services</a>
                 </li>
-                <li class="main-nav__list-item">
-                    <a href="" class="list-item__link small-hidden">Our Services</a>
+                <li class="main-nav__item">
+                    <a href="" class="list-item__link">Responsibilities</a>
                 </li>
-                <li class="main-nav__list-item">
-                    <a href="" class="list-item__link small-hidden">Responsibilities</a>
-                </li>
-                <li class="main-nav__list-item">
-                    <a href="" class="list-item__link small-hidden">Country</a>
+                <li class="main-nav__item">
+                    <a href="" class="list-item__link">Country</a>
                 </li>   
-                <li class="main-nav__list-item">
-                    <button class="list-item__button small-hidden">Apply</button>
-                </li> 
-                <li class="main-nav__list-item large-hidden"> 
-                    <img src="assets/menu-icon.png" alt="menu" class="list-item__menu">                   
-                </li>            
-            </ul>            
+                <li class="main-nav__item">
+                    <button class="button-calltoaction">Apply</button>
+                </li>                            
+            </ul>
+            <div class="main-nav__menu large-hidden"> 
+                <img src="assets/menu-icon.png" alt="menu">                   
+            </div>             
         </nav>
     </header>
     <main class="main-container">
         <section class="hero max-bound">
-            <h1 class="hero__headline-1">We Help to <span class="headline-1--accent">Build</span><br>Your Dream
+            <h1 class="hero__title">We Help to <span class="hero--accent">Build</span><br>Your Dream
             </h1>
             <p class="hero__paragraph">We are always availed to consult on taking your
                 higher education to the next level so you can stay competitive in
             </p>
-            <button type="button" class="button__call-to-action">Apply Online
-                <img src="assets/arrow-light.png" alt="" class="button__image">
+            <button type="button" class="button-calltoaction">Apply Online
+                <img src="assets/arrow-light.png">
             </button>            
             <div class="hero__social-media">
                 <img src="assets/facebook.png" alt="" class="facebook--icon">
                 <img src="assets/twitter.png" alt="" class="twitter--icon">
                 <img src="assets/instagram.png" alt="" class="instagram--icon">
             </div>
-            <div class="hero__image-container">
-                <img src="assets/hero-image.png" alt="hero-image" class="hero__image small-hidden">
+            <div class="hero__image-container small-hidden">
+                <img src="assets/hero-image.png" alt="hero-image">
             </div>            
         </section>
 
-        <section class="featured-section max-bound">
-            <h2 class="featured__headline-2">FEATURED UNIVERSITIES</h2>
+        <section class="featured max-bound">
+            <h2 class="featured__title">FEATURED UNIVERSITIES</h2>
             <div class="featured__carousel">                
-                <div class="featured__university-item">
-                    <img src="assets/macquarie-university.png" alt="macquarie-university" class="university-image--macquarie">
+                <div class="featured__image">
+                    <img src="assets/macquarie-university.png" alt="macquarie-university">
                 </div>
-                <div class="featured__university-item">
-                    <img src="assets/charles-university.png" alt="charles-university" class="university-image--charles">
+                <div class="featured__image">
+                    <img src="assets/charles-university.png" alt="charles-university">
                 </div>
-                <div class="featured__university-item">
-                    <img src="assets/newcastle-university.png" alt="newcastle-university" class="university-image--newcastle">
+                <div class="featured__image">
+                    <img src="assets/newcastle-university.png" alt="newcastle-university">
                 </div>
-                <div class="featured__university-item">
-                    <img src="assets/trobe-university.png" alt="trobe-university" class="university-image--trobe">
+                <div class="featured__image">
+                    <img src="assets/trobe-university.png" alt="trobe-university">
                 </div>                
             </div>  
-            <div class="carousel__buttons small-hidden">
-                <button class="carousel__button carousel__button--active"></button>
-                <button class="carousel__button"></button>
-                <button class="carousel__button"></button>
-                <button class="carousel__button"></button>
+            <div class="controls small-hidden">
+                <button class="controls__button button--active"></button>
+                <button class="controls__button"></button>
+                <button class="controls__button"></button>
+                <button class="controls__button"></button>
             </div>          
+        </section>
+
+        <section class="testimonial max-bound">
+            <h2 class="testimonial__title">Testimonial</h2>
+            <div class="testimonial__card">
+                <div class="testimonial__person">
+                    <div class="testimonial__image">
+                        <img src="assets/avatar-1.png" alt="avatar">
+                    </div>
+                    <h3 class="testimonial__name">Ainara Vergara</h3>
+                    <p class="testimonial__profession">Reporter</p>
+                </div>
+                <p class="testimonial__paragraph">Nisi cumque in necessitatibus molestiae eaque excepturi ab. 
+                    Laboriosam ipsam voluptatem voluptatibus labore quam nihil. 
+                    Quasi occaecati quos ratione quia aut molestiae velit et. 
+                    Voluptatem id ea dicta inventore et quo impedit repudiandae.
+                </p>
+            </div>
+            <div class="controls small-hidden">
+                <button class="controls__button button--active"></button>
+                <button class="controls__button"></button>
+                <button class="controls__button"></button>
+                <button class="controls__button"></button>
+            </div>
         </section>
     </main>    
 </body>
