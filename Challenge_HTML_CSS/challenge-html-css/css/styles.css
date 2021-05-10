@@ -163,6 +163,9 @@ body{
     color: #717CFF;
     font-size: 17px;
 }
+.cards-container .button-calltoaction img{
+    padding-left: 14px;
+}
 
 /* --- Services Section ---  */
 .services .cards-container{
@@ -257,9 +260,8 @@ body{
 .testimonial__card{
     background-color: #FFF;
     border-radius: 29px;
-    padding: 39px 36px 46px 34px;
+    padding: 39px 27px 46px 34px;
     box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.06);
-    margin-bottom: 100px;
 }
 .testimonial__card:first-child{
     margin-bottom: 65px;
@@ -382,6 +384,9 @@ body{
     .services__card:last-child {
         margin-right: 0;
     }
+    .services__title, .services__description{
+        margin-right: 10px;
+    }
 
     /* --- News Section ---  */
     .news .cards-container{
@@ -395,6 +400,11 @@ body{
     .news__card:last-child{
         margin-right: 0;
     }
+
+    /* --- Testimonial Section --- */  
+    .testimonial .cards-container{
+        margin-top: 50px;
+    }  
 
     /* --- Call to action section---  */
     .call-to-action{
@@ -554,9 +564,7 @@ body{
     .services__card{
         margin-right: 47px;
     }
-    .services__card:nth-child(3){
-        /* margin-right: 0; */
-    }
+
 
     /* --- News Section ---  */
     .news .cards-container{
@@ -568,6 +576,19 @@ body{
     }
     .news__card:last-child{
         margin-right: 0;
+    }
+
+    /* --- Testimonial Section --- */  
+    .testimonial .cards-container{
+        flex-flow: nowrap;
+        margin-top: 142px;
+    }  
+    .testimonial__card{
+        padding: 39px 36px 46px 34px;
+    }
+    .testimonial__card:first-child{
+        margin-right: 65px;
+        margin-bottom: 0;
     }
 
     /* --- Call to action section---  */
