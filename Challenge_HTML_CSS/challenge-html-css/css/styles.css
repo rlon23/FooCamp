@@ -70,6 +70,8 @@ body{
 .twitter--icon, .instagram--icon{
     padding-left: 25px;
 }
+
+/* --- Button calltoaction --- */
 .button-calltoaction{
     display: flex;
     align-items: center;
@@ -89,12 +91,31 @@ body{
     padding-left: 34px;
 }
 
-/* --- Featured Section --- */
-.featured{
+/* --- Section Container --- */
+.section-container{
     display: flex;
     flex-flow: column wrap;
     justify-content: space-between;
     align-items: center;
+}
+.section__title{
+    color: #373737;
+    font-size: 37px;
+    line-height: 54px;
+    letter-spacing: -0.46px;
+    margin-top: 115px;
+    text-align: center;
+}
+.section__description{
+    font-size: 18px;
+    line-height: 38px;
+    text-align: center;
+    color: rgba(125, 125, 125, 1);
+    margin-top: 25px;
+}
+
+/* --- Featured Section --- */
+.featured{
     background-color: #FAFAFA;
 }
 .featured__title{
@@ -127,27 +148,109 @@ body{
     display: none;
 }
 
-/* --- Testimonial Section --- */
-.testimonial{ 
+/* --- Services Section ---  */
+.services__cards-container{
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: center;    
+    min-height: 406px;
+    margin: 50px 0 80px 0;
+}
+.services__card{
+    flex: 0 1 296px;
     display: flex;
     flex-flow: column wrap;
     justify-content: space-between;
-    align-items: center;    
+    min-height: 288px;
+    border-radius: 15px;
+    padding: 29px 17px 34px 31px;
+    box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.06);
+    margin-bottom: 49px;
+}
+.services__card:hover{
+    border: 3px solid #6072E2;
+}
+.services__title{
+    font-size: 24px;
+    line-height: 37px;
+    margin-top: 30px;
+}
+.services__description{
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 9px;
+    margin-bottom: auto;
+}
+.services__logo img{
+    width: 76px;
+}
+.services .button-calltoaction{
+    margin: 30px 0 0 0;
+    height: auto;
+    padding: 0;
     background-color: #FFF;
+    color: #717CFF;
+    font-size: 17px;
 }
-.section__title{
-    color: #373737;
-    font-size: 37px;
-    line-height: 54px;
-    letter-spacing: -0.46px;
-    margin-top: 115px;
+
+
+
+/* --- News Section---  */
+.news{ 
+    background-color: #FAFAFA;
 }
-.section__description{
-    font-size: 18px;
-    line-height: 38px;
-    text-align: center;
-    color: rgba(125, 125, 125, 1);
-    margin-top: 25px;
+.news .section__title{
+    margin-top: 105px;
+}
+.news__cards{  
+    display: flex;
+    flex-flow: column wrap;  
+    margin-bottom: 148px;
+}
+.news__card{
+    display: flex;
+    flex-flow: column wrap;
+    border-radius: 10px;
+    box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.1);
+    min-height: 406px;
+    margin-top: 50px;
+}
+.news__image img{
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+}
+.news__text-container{    
+    padding: 30px 27px 62px 26px;
+}
+.news__date{
+    display: flex;
+    align-items: center;
+}
+.news__date p{
+    color: #565656;
+    font-size: 16px;
+    line-height: 18.77px;
+}
+.news__date img{
+    width: 20px;
+    margin-right: 15px;
+}
+.news__title{
+    color: rgba(37, 37, 37, 1);
+    font-size: 22px;
+    line-height: 25.81px;
+    margin-top: 15px;
+}
+.news .button-calltoaction{
+    margin-bottom: 124px;
+}
+
+
+
+/* --- Testimonial Section --- */
+.testimonial{        
+    background-color: #FFF;
 }
 .testimonial__cards{
     display: flex;
@@ -198,62 +301,23 @@ body{
     margin-bottom: 98px;
 }
 
-/* --- News Section---  */
-.news{ 
+/* --- Call to action section---  */
+.call-to-action{
     display: flex;
     flex-flow: column wrap;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #FAFAFA;
+    align-items: flex-start;
+    background-color: #FAFAFA;    
+    padding: 82px 22px 74px 22px;
 }
-.news .section__title{
-    margin-top: 105px;
+.call-to-action .button-calltoaction{
+    margin-top: 30px;
 }
-.news__cards{  
-    display: flex;
-    flex-flow: column wrap;  
-    margin-bottom: 148px;
-}
-.news__card{
-    display: flex;
-    flex-flow: column wrap;
-    border-radius: 10px;
-    box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.1);
-    min-height: 406px;
-    margin-top: 50px;
-}
-.news__image img{
-    border-radius: 10px 10px 0 0;
-    width: 100%;
-}
-.news__text-container{    
-    padding: 30px 27px 62px 26px;
-}
-.news__date{
-    display: flex;
-    align-items: center;
-}
-.news__date p{
-    color: #565656;
-    font-size: 16px;
-    line-height: 18.77px;
-}
-.news__date img{
-    width: 20px;
-    margin-right: 15px;
-}
-.news__title{
-    color: rgba(37, 37, 37, 1);
-    font-size: 22px;
-    line-height: 25.81px;
-    margin-top: 15px;
-}
-.news .button-calltoaction{
-    margin-bottom: 124px;
+.call-to-action .section__title{
+    text-align: left;
+    margin-top: 0;
 }
 
 /* --- Footer---  */
-
 .footer{
     display: flex;
     flex-flow: column wrap;
@@ -296,7 +360,7 @@ body{
 
 
 
-/* Medium devices */
+/* ------------------- Medium devices ------------------- */
 /*771 video*/
 @media (min-width: 768px) and (max-width: 1023px) {  
     /* --- Hero Section ---    */
@@ -311,8 +375,19 @@ body{
         text-align: center;
         margin: 14px 40px 42px 40px;
     }
-    /* --- Testimonial Section --- */
-    
+    /* --- Services Section ---  */
+    .services__cards-container{
+        /* justify-content: flex-start; */
+    }
+    .services__card{
+        flex: 0 0 260px;
+        margin-right: 47px;
+    }
+    .services__card:nth-child(even),
+    .services__card:last-child {
+        margin-right: 0;
+    }
+
     /* --- News Section ---  */
     .news__cards{  
         display: flex;
@@ -321,6 +396,11 @@ body{
     }
     .news__card{
         flex: 0 1 344px;        
+    }  
+
+    /* --- Call to action section---  */
+    .call-to-action{
+        align-items: center;
     }
 
     /* --- Footer --- */
@@ -463,10 +543,40 @@ body{
         padding-left: 128px; 
         padding-right: 128px;
     }  
-    /* --- Testimonial Section --- */
+    /* --- Section Container --- */
     .section__description{
+        padding: 0 70px;
         font-size: 22px;
     }
+
+    /* --- Services Section ---  */
+    .services .section__description{
+        padding: 0 82px;
+    }
+    .services__card{
+        margin-right: 47px;
+    }
+    .services__card:nth-child(3){
+        margin-right: 0;
+    }
+
+    /* --- News Section ---  */
+    .news__cards{  
+        display: flex;
+        flex-flow: row nowrap;  
+        justify-content: space-between;
+        margin-bottom: 148px;
+        margin-top: 80px;
+        padding: 0 30px;
+    }
+    .news__card{
+        margin-right: 46px;        
+    }
+    .news__card:last-child{
+        margin-right: 0;         
+    }
+
+    /* --- Testimonial Section --- */    
     .testimonial .section__description{
         padding: 0 118px;
     }
@@ -489,23 +599,20 @@ body{
         margin-bottom: 98px;
     }
 
-    /* --- News Section ---  */
-    .news .section__description{
-        padding: 0 70px;
-    }
-    .news__cards{  
+    /* --- Call to action section---  */
+    .call-to-action{
         display: flex;
-        flex-flow: row nowrap;  
+        flex-flow: row nowrap;
         justify-content: space-between;
-        margin-bottom: 148px;
-        padding: 0 30px;
+        align-items: baseline;
+        background-color: #FAFAFA;
+        padding-top: 82px;
+        padding-bottom: 74px;
     }
-    .news__card{
-        margin-right: 46px;        
+    .call-to-action .button-calltoaction{
+        margin-top: 0;
     }
-    .news__card:last-child{
-        margin-right: 0;         
-    }
+
     /* --- Footer --- */
     .footer{
         height: 346px;
